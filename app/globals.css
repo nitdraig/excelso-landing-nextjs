@@ -27,17 +27,17 @@ p {
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 10px;
   scrollbar-color: #c0c0c0;
 }
 ::-webkit-scrollbar-thumb {
-  background: #6a0dad;
-  border-radius: 10px;
+  background: #504e4e;
+  border-radius: 12px;
 }
 
 ::selection {
-  color: white;
-  background: #6a0dad;
+  color: rgb(0, 0, 0);
+  background: #f8f8f8;
 }
 @theme {
   --color-primary: #00b4ff;

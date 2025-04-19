@@ -1,6 +1,7 @@
 "use client";
+import { montserrat } from "@/app/fonts";
 import { Button } from "@/components/ui/button";
-import VantaWaves from "@/components/VantaWaves";
+import VantaWaves from "@/components/VantaRings";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -68,7 +69,7 @@ const IndexHero = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <motion.span
-                className="inline-block text-sm font-medium px-3 py-1 border rounded-full"
+                className={`${montserrat.className}inline-block text-sm font-medium px-3 py-1 border rounded-full `}
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
@@ -76,7 +77,7 @@ const IndexHero = () => {
                 Tech Group
               </motion.span>
               <motion.h1
-                className="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none"
+                className={`${montserrat.className}text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}

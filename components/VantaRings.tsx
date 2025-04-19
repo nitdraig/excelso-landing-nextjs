@@ -2,22 +2,21 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import * as THREE from "three";
-import NET from "vanta/dist/vanta.rings.min";
+import RINGS from "vanta/dist/vanta.rings.min";
 
 interface VantaEffect {
   destroy: () => void;
 }
 
-const VantaWaves = (props: any) => {
+const VantaRings = (props: any) => {
   const myRef = useRef<HTMLDivElement>(null);
   const [vantaEffect, setVantaEffect] = useState<VantaEffect | null>(null);
 
   useEffect(() => {
-    // Solo inicializa si no existe efecto y ref.current es un div real
     if (!vantaEffect && myRef.current) {
-      const effect = NET({
-        el: myRef.current, // aquí TS infiere HTMLElement
-        THREE, // pásale THREE para que lo use internamente
+      const effect = RINGS({
+        el: myRef.current,
+        THREE,
         color: 0x0,
         backgroundColor: 0xc3c3c3,
         mouseControls: true,
@@ -47,4 +46,4 @@ const VantaWaves = (props: any) => {
   );
 };
 
-export default VantaWaves;
+export default VantaRings;

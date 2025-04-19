@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 // import { ThemeProvider } from "@/components/theme-provider"
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { montserrat, openSans } from "@/app/fonts";
 
 export default function MainLayout({
   children,
@@ -41,15 +42,27 @@ export default function MainLayout({
       {/* Initial loading animation */}
       {isLoading ? (
         <div className="fixed inset-0 bg-background flex items-center justify-center z-50">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-4xl font-bold"
-          >
-            EXCELSO
-          </motion.div>
+          <div className="flex-col text-center ">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.5 }}
+              className={`${openSans.className}text-2xl font-bold`}
+            >
+              We are solutions. <br />
+              We are
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.5 }}
+                className={`${montserrat.className}text-4xl font-bold`}
+              >
+                EXCELSO
+              </motion.div>
+            </motion.div>
+          </div>
         </div>
       ) : (
         <>

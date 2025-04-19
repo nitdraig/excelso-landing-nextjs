@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full border-t py-6">
-      <div className="container flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="container  flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex flex-col items-center md:items-start">
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm ml-10 text-muted-foreground">
             &copy; {new Date().getFullYear()} Excelso. All rights reserved.
           </p>
         </div>
