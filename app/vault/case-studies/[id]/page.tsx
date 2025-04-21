@@ -11,6 +11,7 @@ import {
   ChevronRight,
   Clock,
   Users,
+  Link2,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -204,6 +205,16 @@ export default function CaseStudyPage() {
                     <div className="flex items-center">
                       <Users className="h-5 w-5 mr-2" />
                       <span>{study.teamSize}</span>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="flex items-center">
+                      <Button asChild className="w-full">
+                        <Link href={study.publicUrl} target="_blank">
+                          See This Project
+                          <ArrowRight className="ml-2 h-4 w-4" />
+                        </Link>
+                      </Button>{" "}
                     </div>
                   </div>
                 </div>

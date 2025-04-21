@@ -32,7 +32,7 @@ const IndexOpenDivision = () => {
         >
           <div className="w-full h-full relative z-0 bg-black  overflow-hidden">
             <video
-              src="/videos/bg3.mp4"
+              src="/videos/bg3.webm"
               className="w-full  h-full m-auto max-w-none absolute top-0 left-0 right-0 bottom-0"
               autoPlay
               playsInline

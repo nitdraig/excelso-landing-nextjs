@@ -36,13 +36,13 @@ const IndexHero = () => {
   return (
     <motion.section
       ref={heroRef}
-      className="relative w-full -mt-28 min-h-screen flex items-center border-b overflow-hidden"
+      className="relative w-full -mt-44 lg:-mt-28 min-h-screen flex items-center border-b overflow-hidden"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
       <div className="absolute inset-0 z-0 ">
-        <div className="w-full h-full opacity-30 backdrop-blur-lg">
+        <div className="w-full h-full opacity-20 lg:opacity-40 backdrop-blur-lg">
           <VantaWaves />
         </div>
       </div>
@@ -54,7 +54,7 @@ const IndexHero = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/0 via-background/0 to-background" />
       </motion.div>
 
-      <div className="container  relative px-4 md:px-6 z-10">
+      <div className="container relative px-4 md:px-6 z-10">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <motion.div
             className="flex flex-col justify-center space-y-6"
@@ -69,7 +69,7 @@ const IndexHero = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <motion.span
-                className={`${montserrat.className}inline-block text-sm font-medium px-3 py-1 border rounded-full `}
+                className={`${montserrat.className} inline-block text-sm font-medium px-3 py-1 border border-[#BA0201] rounded-full `}
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
@@ -77,7 +77,7 @@ const IndexHero = () => {
                 Tech Group
               </motion.span>
               <motion.h1
-                className={`${montserrat.className}text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none}`}
+                className={`${montserrat.className} lg:text-4xl lg:mt-2 mt-2 font-bold tracking-tighter text-3xl xl:text-7xl/none}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
@@ -111,7 +111,7 @@ const IndexHero = () => {
                 </motion.span>
               </motion.h1>
               <motion.p
-                className="max-w-[600px] text-muted-foreground md:text-xl"
+                className="max-w-[600px] text-[#5e5d5d]  md:text-xl"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 1.6 }}

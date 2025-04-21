@@ -2,6 +2,7 @@ export const caseStudies = [
   {
     id: "fuddy",
     title: "Fuddy - Economic and accessible recipes",
+    publicUrl: "https://fuddy.click",
     client: "Fuddy",
     industry: "Health & Alimentation",
     challenge:
@@ -29,8 +30,9 @@ export const caseStudies = [
   {
     id: "jema",
     title: "JEMA",
-    client: "National Health Network",
-    industry: "Healthcare",
+    publicUrl: "https://jema.excelso.xyz/",
+    client: "Excelso Vault ",
+    industry: "Mining",
     challenge:
       "Decentralization of environmental impact information on natural resources extraction projects.",
     solution:
@@ -127,4 +129,57 @@ export const caseStudies = [
   //   teamSize: "9 specialists",
   //   image: "/placeholder.svg?height=600&width=800",
   // },
+];
+
+export const openSourceProjects = [
+  {
+    id: 1,
+    name: "C-UI",
+    description:
+      "A modern UI component library built with Tailwind, React, and TypeScript",
+    language: "TypeScript",
+    stars: 3,
+    forks: 1,
+    contributors: 1,
+    repoUrl: "https://github.com/nitdraig/cui-react",
+    demoUrl: "https://c-ui.agustin.top",
+    image: "https://c-ui.agustin.top/logo.png?height=300&width=400",
+    tags: ["React", "UI Library", "TypeScript", "Tailwind CSS"],
+  },
+  {
+    id: 2,
+    name: "Roger",
+    description: "Open source An IA bot to consulting about S&P500 stocks",
+    language: "Python",
+    stars: 2,
+    forks: 1,
+    contributors: 1,
+    repoUrl: "https://github.com/nitdraig/roger",
+    demoUrl: "https://roger.agustin.top",
+    image:
+      "https://github.com/nitdraig/roger/blob/main/static/public/roger3.png?raw=true?height=300&width=400",
+    tags: ["Bot", "Python", "Flask", "YFinances", "OpenAI"],
+  },
+  {
+    id: 3,
+    name: "Skipy",
+    description:
+      "Spiky is a multi-tool application designed to make the lives of developers and IT professionals easier.",
+    language: "TypeScript",
+    stars: 178,
+    forks: 32,
+    contributors: 6,
+    repoUrl: "https://github.com/nitdraig/skipy",
+    demoUrl: "https://skipy.click",
+    image:
+      "https://camo.githubusercontent.com/db5929f58fdbd135c28a884ee7c307fcb98f7da5e42cf842b12f5238fe57ef16/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64726169672f696d6167652f75706c6f61642f76313730353730333130332f536b6970792f627579767632726161737a747a6e6f677a6738672e706e67?height=300&width=400",
+    tags: [
+      "React",
+      "TypeScript",
+      "Express",
+      "MongoDB",
+      "NextJS",
+      "Tailwind CSS",
+    ],
+  },
 ];

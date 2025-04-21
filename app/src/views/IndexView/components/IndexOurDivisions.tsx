@@ -17,6 +17,7 @@ const IndexOurDivisions = () => {
     <motion.section
       ref={servicesRef}
       className="w-full py-24 md:py-32 lg:py-14"
+      id="our-divisions"
     >
       <div className="container px-4 md:px-6">
         <motion.div
@@ -111,7 +112,7 @@ const IndexOurDivisions = () => {
               >
                 <div className="w-full h-full relative z-0 bg-black  overflow-hidden">
                   <video
-                    src="/videos/bg.mp4"
+                    src="/videos/bg.webm"
                     className="w-full  h-full m-auto max-w-none absolute top-0 left-0 right-0 bottom-0"
                     autoPlay
                     playsInline

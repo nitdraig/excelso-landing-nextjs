@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <IndexHero />
-      <div id="our-divisions">
-        <IndexOurDivisions />
-      </div>
+      <IndexOurDivisions />
       <IndexStats />
       <IndexCTA />
     </div>

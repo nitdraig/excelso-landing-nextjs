@@ -78,7 +78,7 @@ const IndexStats = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.7 }}
             >
-              <CountUp from={0} to={4} duration={2} />+
+              <CountUp from={0} to={3} duration={2} />+
             </motion.div>
             <div className="text-sm text-muted-foreground">
               Open Source Projects

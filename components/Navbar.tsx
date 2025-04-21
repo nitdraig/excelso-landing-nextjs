@@ -7,6 +7,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { montserrat } from "@/app/fonts";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,12 +24,19 @@ export default function Navigation() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container   flex h-16 items-center justify-between">
-        <Link href="/" className="flex ml-10 items-center space-x-2">
-          <span
+        <Link href="/" className="flex ml-4  items-center space-x-2">
+          {/* <span
             className={`${montserrat.className}text-xl font-bold tracking-tighter`}
           >
             EXCELSO
-          </span>
+          </span> */}
+          <Image
+            src="/excelso-logo-1.png"
+            alt="Excelso Logo"
+            width={140}
+            height={100}
+            className="object-contain  "
+          />
         </Link>
 
         {/* Desktop Navigation */}
