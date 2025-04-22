@@ -18,7 +18,6 @@ const IndexHero = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.8]);
   const y = useTransform(scrollYProgress, [0, 1], [0, 100]);
 
-  // Animated grid items
   const gridVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -116,8 +115,8 @@ const IndexHero = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 1.6 }}
               >
-                A tech group driving innovation, security, and sustainability
-                through digital solutions.
+                A tech group driving innovation, digitalization, and
+                sustainability through digital solutions.
               </motion.p>
             </motion.div>
             <motion.div
