@@ -26,7 +26,7 @@ export const caseStudies = [
     timeline: "2 months",
     teamSize: "2 members",
     image:
-      "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/fpxgbfolktuj2le7u4sf.png?height=600&width=800",
+      "https://res.cloudinary.com/draig/image/upload/v1745625011/portolio-personal/n8mxg4h9jorbxcg68yqt.png?height=600&width=800",
   },
   // {
   //   id: "fuddy",
