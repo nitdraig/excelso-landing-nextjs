@@ -208,6 +208,12 @@ p {
   }
 }
 
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-7xl;
+  }
+}
+
 /* Grid patterns for backgrounds */
 .bg-grid-pattern {
   background-image: radial-gradient(

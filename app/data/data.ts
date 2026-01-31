@@ -25,8 +25,7 @@ export const caseStudies = [
     ],
     timeline: "2 months",
     teamSize: "2 members",
-    image:
-      "https://res.cloudinary.com/draig/image/upload/v1745625011/portolio-personal/n8mxg4h9jorbxcg68yqt.png?height=600&width=800",
+    image: "/og/mtn.webp?height=600&width=800",
   },
   // {
   //   id: "fuddy",
@@ -82,8 +81,7 @@ export const caseStudies = [
     ],
     timeline: "2 months",
     teamSize: "1 specialist",
-    image:
-      "https://res.cloudinary.com/draig/image/upload/v1743035227/portolio-personal/u7huy9ubnibs978b6pl3.png?height=600&width=800",
+    image: "/og/jema.webp?height=600&width=800",
   },
   // {
   //   id: "smart-city",
@@ -172,8 +170,7 @@ export const openSourceProjects = [
     contributors: 1,
     repoUrl: "https://github.com/nitdraig/mailprex-app",
     demoUrl: "https://mailprex.excelso.xyz",
-    image:
-      "https://asset.cloudinary.com/draig/a03b36f590a3d05e5e6c6ce36b2f067c?height=300&width=400",
+    image: "/og/mailprex.webp?height=600&width=800",
     tags: [
       "React",
       "TypeScript",
@@ -194,8 +191,7 @@ export const openSourceProjects = [
     contributors: 1,
     repoUrl: "https://github.com/nitdraig/skipy",
     demoUrl: "https://skipy.click",
-    image:
-      "https://camo.githubusercontent.com/db5929f58fdbd135c28a884ee7c307fcb98f7da5e42cf842b12f5238fe57ef16/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64726169672f696d6167652f75706c6f61642f76313730353730333130332f536b6970792f627579767632726161737a747a6e6f677a6738672e706e67?height=300&width=400",
+    image: "/og/skipy.webp?height=600&width=800",
     tags: [
       "React",
       "TypeScript",
@@ -215,8 +211,7 @@ export const openSourceProjects = [
     contributors: 1,
     repoUrl: "https://github.com/nitdraig/roger",
     demoUrl: "https://roger.agustin.top",
-    image:
-      "https://github.com/nitdraig/roger/blob/main/static/public/roger3.png?raw=true?height=300&width=400",
+    image: "/og/roger.webp?height=600&width=800",
     tags: ["Bot", "Python", "Flask", "YFinances", "OpenAI"],
   },
   {
@@ -230,7 +225,7 @@ export const openSourceProjects = [
     contributors: 1,
     repoUrl: "https://github.com/nitdraig/cui-react",
     demoUrl: "https://c-ui.agustin.top",
-    image: "https://c-ui.agustin.top/logo.png?height=300&width=400",
+    image: "/og/cui.webp?height=600&width=800",
     tags: ["React", "UI Library", "TypeScript", "Tailwind CSS"],
   },
 ];

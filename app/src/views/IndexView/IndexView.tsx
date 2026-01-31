@@ -5,7 +5,7 @@ import IndexOurDivisions from "./components/IndexOurDivisions";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full min-w-0">
       <IndexHero />
       <IndexOurDivisions />
       <IndexStats />
