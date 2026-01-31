@@ -27,34 +27,33 @@ export const caseStudies = [
     teamSize: "2 members",
     image: "/og/mtn.webp?height=600&width=800",
   },
-  // {
-  //   id: "fuddy",
-  //   title: "Fuddy - Economic and accessible recipes",
-  //   publicUrl: "https://fuddy.click",
-  //   client: "Fuddy",
-  //   industry: "Health & Alimentation",
-  //   challenge:
-  //     "Break the barriers of accessibility to healthy and low -cost foods",
-  //   solution:
-  //     "This project is a web and mobile application that makes use of artificial intelligence, designed to offer personalized recommendations of healthy and accessible recipes, request to enter your ingredients you have at home. Based on these criteria, the website analyzes the user's needs and suggests recipe options, taking into account factors such as diseases, allergies, and food preferences.",
-  //   technologies: [
-  //     "AI-powered ",
-  //     "Express.js",
-  //     "MongoDB",
-  //     "NextJS",
-  //     "Tailwind CSS",
-  //     "React Native",
-  //   ],
-  //   results: [
-  //     "78% reduction in security incidents",
-  //     "35% decrease in compliance costs",
-  //     "60% faster threat response time",
-  //   ],
-  //   timeline: "8 months",
-  //   teamSize: "6 members",
-  //   image:
-  //     "https://res.cloudinary.com/draig/image/upload/v1702086792/fuddy/fpxgbfolktuj2le7u4sf.png?height=600&width=800",
-  // },
+  {
+    id: "fuddy",
+    title: "Fuddy - Economic and accessible recipes",
+    publicUrl: "https:fuddy.click",
+    client: "Fuddy",
+    industry: "Health & Alimentation",
+    challenge:
+      "Break the barriers of accessibility to healthy and low -cost foods",
+    solution:
+      "This project is a web and mobile application that makes use of artificial intelligence, designed to offer personalized recommendations of healthy and accessible recipes, request to enter your ingredients you have at home. Based on these criteria, the website analyzes the user's needs and suggests recipe options, taking into account factors such as diseases, allergies, and food preferences.",
+    technologies: [
+      "AI-powered ",
+      "Express.js",
+      "MongoDB",
+      "NextJS",
+      "Tailwind CSS",
+      "React Native",
+    ],
+    results: [
+      "78% reduction in security incidents",
+      "35% decrease in compliance costs",
+      "60% faster threat response time",
+    ],
+    timeline: "8 months",
+    teamSize: "6 members",
+    image: "/og/fuddy.webp?height=600&width=800",
+  },
   {
     id: "jema",
     title: "JEMA",
