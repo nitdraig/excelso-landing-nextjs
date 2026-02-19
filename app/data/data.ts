@@ -253,8 +253,7 @@ export const openSourceProjects = [
       "This repository provides a solid foundation for building backend applications with Express.js and TypeScript, following modern architecture and development best practices. The project is designed to be modular, secure, and scalable, including common tools and patterns that facilitate development.",
     repoUrl: "https://github.com/nitdraig/express-base",
     demoUrl: "https://github.com/nitdraig/express-base",
-    image:
-      "https://github.com/nitdraig/express-base/blob/main/public/exb-og.png?height=600&width=800",
+    image: "/og/exb-og.png?height=600&width=800",
     tags: [
       "Express.js",
       "TypeScript",
@@ -265,9 +264,6 @@ export const openSourceProjects = [
       "Logging",
       "Error Handling",
       "Authentication",
-      "Rate Limiting",
-      "Monitoring",
-      "Alerting",
     ],
   },
 ];
