@@ -227,4 +227,23 @@ export const openSourceProjects = [
     image: "/og/cui.webp?height=600&width=800",
     tags: ["React", "UI Library", "TypeScript", "Tailwind CSS"],
   },
+  {
+    id: "5",
+    name: "Encrypt-D",
+    description:
+      "Encrypt-D is a professional folder encryption manager for Windows, combining AES-256-GCM military-grade encryption with an intuitive interface",
+    repoUrl: "https://github.com/nitdraig/encrypt-d",
+    demoUrl: "https://encrypt-d.excelso.xyz",
+    image: "/og/encrypt-d.webp?height=600&width=800",
+    tags: [
+      "Python 3.8+",
+      "Tkinter",
+      "AES-256-GCM",
+      "PBKDF2-SHA256",
+      "cryptography",
+      "i18n (EN/ES)",
+      "Astro",
+      "Windows",
+    ],
+  },
 ];
