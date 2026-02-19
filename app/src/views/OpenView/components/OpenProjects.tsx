@@ -136,7 +136,7 @@ const OpenProjects = () => {
                     rel="noopener noreferrer"
                     className="w-full sm:w-1/2"
                   >
-                    <Button variant="outline" size="sm" className="w-full">
+                    <Button variant="outline" size="sm" className="w-full cursor-pointer">
                       <Github className="h-4 w-4 mr-2" />
                       Repo
                     </Button>
@@ -148,7 +148,7 @@ const OpenProjects = () => {
                     rel="noopener noreferrer"
                     className="w-full sm:w-1/2"
                   >
-                    <Button size="sm" className="w-full">
+                    <Button size="sm" className="w-full cursor-pointer">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Demo
                     </Button>
