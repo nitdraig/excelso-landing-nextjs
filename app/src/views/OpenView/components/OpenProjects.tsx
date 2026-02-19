@@ -82,7 +82,7 @@ const OpenProjects = () => {
           initial="hidden"
           animate={isProjectsInView ? "visible" : "hidden"}
         >
-          {openSourceProjects.map((project) => (
+          {[...openSourceProjects].reverse().map((project) => (
             <motion.div
               key={project.id}
               className="group relative overflow-hidden rounded-lg border bg-background transition-all hover:shadow-md"

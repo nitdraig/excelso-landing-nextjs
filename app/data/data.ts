@@ -254,7 +254,7 @@ export const openSourceProjects = [
     repoUrl: "https://github.com/nitdraig/express-base",
     demoUrl: "https://github.com/nitdraig/express-base",
     image:
-      "https://github.com/nitdraig/express-base/blob/main/public/favicon.ico?height=600&width=800",
+      "https://github.com/nitdraig/express-base/blob/main/public/exb-og.png?height=600&width=800",
     tags: [
       "Express.js",
       "TypeScript",
