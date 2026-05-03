@@ -9,7 +9,10 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Excelso. All rights reserved.
           </p>
         </div>
-        <div className="flex gap-6">
+        <nav
+          className="flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2"
+          aria-label="Footer"
+        >
           <Link
             href="/about"
             className="text-xs text-muted-foreground hover:text-foreground"
@@ -34,7 +37,19 @@ export default function Footer() {
           >
             Contact
           </Link>
-        </div>
+          <Link
+            href="/privacy"
+            className="text-xs text-muted-foreground hover:text-foreground"
+          >
+            Privacy
+          </Link>
+          <Link
+            href="/terms"
+            className="text-xs text-muted-foreground hover:text-foreground"
+          >
+            Terms
+          </Link>
+        </nav>
       </div>
     </footer>
   );

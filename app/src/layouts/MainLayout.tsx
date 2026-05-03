@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { montserrat, openSans } from "@/app/fonts";
+import { LanguageProvider } from "@/app/src/contexts/LanguageContext";
 
 export default function MainLayout({
   children,
@@ -65,7 +66,7 @@ export default function MainLayout({
           </div>
         </div>
       ) : (
-        <>
+        <LanguageProvider>
           {/* Custom cursor (visible only on desktop) */}
           <motion.div
             className="custom-cursor hidden md:block"
@@ -86,9 +87,9 @@ export default function MainLayout({
           />
 
           <Navigation />
-          <main className="flex-1 ">{children}</main>
+          <main className="flex-1 min-w-0">{children}</main>
           <Footer />
-        </>
+        </LanguageProvider>
       )}
       {/* </ThemeProvider> */}
     </>
