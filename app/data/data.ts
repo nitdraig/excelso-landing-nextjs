@@ -82,6 +82,63 @@ export const caseStudies = [
     teamSize: "1 specialist",
     image: "/og/jema.webp?height=600&width=800",
   },
+  {
+    id: "experimental-global",
+    title: "Experimental Global",
+    publicUrl: "https://experimental.global",
+    client: "Experimental Global",
+    industry: "Hackathon",
+    challenge:
+      "Streamline communication, coordination, direction, and review of hackathon challenges.",
+    solution:
+      "Platform built for the EXPERIMENTAL Global team to streamline communication, coordination, direction, and review of hackathon challenges. It connects organizations with real challenges and global talent to design, execute, and validate technology solutions—validated projects can receive compensation or be spun out as startups. I delivered the bilingual marketing landing (Astro 6, Tailwind CSS v4) and the production web app (Next.js 16, Express, MongoDB) with role-based dashboards, challenge lifecycle, teams, submissions, mentor scoring, and admin analytics.",
+    technologies: [
+      "Astro",
+      "Next.js",
+      "Express",
+      "MongoDB",
+      "TypeScript",
+      "React Query",
+      "Tailwind CSS",
+      "Hackathon",
+    ],
+    results: [
+      "100% increase in hackathon participation",
+      "80% reduction in hackathon planning time",
+      "90% increase in hackathon success rate",
+    ],
+    timeline: "2 months",
+    teamSize: "3 members",
+    image: "/og/experimental-global.webp?height=600&width=800",
+  },
+  {
+    id: "flowfolio",
+    title: "Flowfolio",
+    publicUrl: "https://flowfolio.space",
+    client: "Flowfolio",
+    industry: "SaaS",
+    challenge:
+      "Create the best and more complete platform to manage projects, clients, tasks and deliveries for freelancers.",
+    solution:
+      "Flowfolio is the command center for freelancers.One complete platform to manage projects, clients, tasks and deliveries.",
+    technologies: [
+      "Next.js",
+      "Express",
+      "MongoDB",
+      "TypeScript",
+      "React Query",
+      "Tailwind CSS",
+      "SaaS",
+    ],
+    results: [
+      "68% increase in freelancer productivity",
+      "79% reduction in project management time",
+      "92% increase in project success rate",
+    ],
+    timeline: "8 month",
+    teamSize: "1 member",
+    image: "/og/flowfolio.webp?height=600&width=800",
+  },
   // {
   //   id: "smart-city",
   //   title: "Smart City Infrastructure",
@@ -105,54 +162,6 @@ export const caseStudies = [
   //   ],
   //   timeline: "24 months",
   //   teamSize: "15 specialists",
-  //   image: "/placeholder.svg?height=600&width=800",
-  // },
-  // {
-  //   id: "supply-chain",
-  //   title: "Supply Chain Optimization",
-  //   client: "Global Manufacturing Corp",
-  //   industry: "Manufacturing",
-  //   description: "End-to-end supply chain visibility and optimization platform",
-  //   challenge:
-  //     "The client struggled with supply chain inefficiencies, inventory management issues, and lack of end-to-end visibility. This resulted in increased costs, delayed deliveries, and customer dissatisfaction.",
-  //   solution:
-  //     "We implemented a comprehensive supply chain optimization platform that utilized blockchain for transparency, AI for demand forecasting, and digital twin technology for real-time simulation and optimization.",
-  //   technologies: ["Blockchain", "AI/ML", "Digital Twin", "IoT sensors"],
-  //   results: [
-  //     "25% reduction in inventory costs",
-  //     "40% improvement in delivery times",
-  //     "60% better forecast accuracy",
-  //     "30% decrease in supply chain disruptions",
-  //   ],
-  //   timeline: "15 months",
-  //   teamSize: "10 specialists",
-  //   image: "/placeholder.svg?height=600&width=800",
-  // },
-  // {
-  //   id: "retail-intelligence",
-  //   title: "Retail Intelligence Platform",
-  //   client: "International Retail Group",
-  //   industry: "Retail",
-  //   description:
-  //     "Customer behavior analytics and personalization engine for retail environments",
-  //   challenge:
-  //     "The retail group was losing market share to online competitors and struggled to understand changing customer behaviors. Their traditional retail analytics provided limited insights and couldn't support personalized customer experiences.",
-  //   solution:
-  //     "We created a comprehensive retail intelligence platform using computer vision to analyze in-store customer behavior, predictive analytics to forecast trends, and edge computing for real-time personalization.",
-  //   technologies: [
-  //     "Computer Vision",
-  //     "Predictive Analytics",
-  //     "Edge Computing",
-  //     "Customer Data Platform",
-  //   ],
-  //   results: [
-  //     "18% increase in sales conversion",
-  //     "27% improvement in customer satisfaction",
-  //     "35% better inventory turnover",
-  //     "22% increase in average transaction value",
-  //   ],
-  //   timeline: "14 months",
-  //   teamSize: "9 specialists",
   //   image: "/placeholder.svg?height=600&width=800",
   // },
 ];
